@@ -1,0 +1,9 @@
+.sudoku-container {
+  display: flex;
+  justify-content: center;
+
+  .sudoku-container-box {
+    border: 5px solid white;
+    width: fit-content;
+  }
+}

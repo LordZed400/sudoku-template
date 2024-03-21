@@ -45,3 +45,16 @@
     position: relative;
   }
 }
+
+@mixin cell($size: $cell-size) {
+  border: 1px solid white;
+  height: $size;
+  max-height: $size;
+  max-width: $size;
+  padding: 1px;
+  width: $size;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

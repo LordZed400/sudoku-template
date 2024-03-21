@@ -9,3 +9,8 @@ $font-path: "src/assets/fonts" !default;
   font-family: "Rosario Light";
   src: url('#{$font-path}/Rosario-Light.ttf');
 }
+
+@font-face {
+  font-family: "Who Cats";
+  src: url('#{$font-path}/Whocats.ttf');
+}
