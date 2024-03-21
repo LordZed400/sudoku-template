@@ -1,0 +1,47 @@
+@import "./variables";
+
+%header {
+  background: $accent-color;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .title {
+    font-weight: bold;
+    font-family: $header-font;
+    font-size: 35px;
+    color: white;
+  }
+
+  .header-nav {
+    color: white;
+
+    &:hover {
+      cursor: pointer;
+      color: $primary-color;
+    }
+  }
+}
+
+%container {
+  background: $primary-color;
+  box-sizing: border-box;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+
+  .content-container {
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 20px 40px;
+    color: white;
+    font-family: $text-font;
+    overflow-x: hidden;
+  }
+
+  .content {
+    padding-bottom: 100px;
+    position: relative;
+  }
+}

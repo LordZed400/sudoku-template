@@ -1,0 +1,12 @@
+@import "src/index";
+
+.landing-page-container {
+  @extend %container;
+  
+  display: flex;
+  flex-direction: column;
+
+  .header-container {
+    @extend %header;
+  }
+}

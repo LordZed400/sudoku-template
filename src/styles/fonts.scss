@@ -1,0 +1,11 @@
+$font-path: "src/assets/fonts" !default;
+
+@font-face {
+  font-family: "FiraSans";
+  src: url('#{$font-path}/FiraSans-Black.ttf');
+}
+
+@font-face {
+  font-family: "Rosario Light";
+  src: url('#{$font-path}/Rosario-Light.ttf');
+}

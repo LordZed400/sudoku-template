@@ -1,0 +1,9 @@
+@import "./styles/variables";
+@import "./styles/mixins";
+@import "./styles/fonts";
+
+body {
+  font-family: 'FiraSans', 'Times New Roman', Times, serif;
+  margin: 0;
+  overflow-x: hidden;
+}
